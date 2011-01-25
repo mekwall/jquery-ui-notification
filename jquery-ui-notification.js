@@ -117,19 +117,19 @@ $.widget("me.notification", {
         }
 
         // create a new notification instance
-        this.notifications.push(new $.ui.notification.instance(this)._create(content, $.extend({}, this.options, options)));
+        this.notifications.push(new $.me.notification.instance(this)._create(content, $.extend({}, this.options, options)));
     }
 });
     
 // instance constructor
-$.extend($.ui.notification, {
+$.extend($.me.notification, {
     instance: function(widget){
         this.parent = widget;
     }
 });
     
 // notification instance
-$.extend($.ui.notification.instance.prototype, {
+$.extend($.me.notification.instance.prototype, {
     _create: function(content, options){
         this.options = options;
         
