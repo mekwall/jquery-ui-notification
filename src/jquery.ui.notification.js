@@ -47,7 +47,7 @@ $.widget("me.notification", {
         content: function() {
             return $(this).attr("title");
         },
-        template: "<h4>${Title}</h4><p>${Content}</p>"
+        template: '<div class="ui-widget-header">${Title}</div><div class="ui-widget-content">${Content}</div>'
     },
     _init: function(){
         // container for notifications

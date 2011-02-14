@@ -45,11 +45,11 @@
     font-size: 0.9em;    
 }
 
-.ui-notification .ui-notification-content h4 {
+.ui-notification .ui-widget-header {
     font-size: 1.1em;
 }
 
-.ui-notification .ui-notification-content p {
+.ui-notification .ui-widget-header {
     font-size: 0.9em;
 }
 
