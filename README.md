@@ -8,7 +8,7 @@ See [jQuery UI Notification project page](http://writeless.se/project/jquery-ui-
 Tested to work with:
 
 * jQuery 1.4 and later
-* Query UI 1.8 and later
+* jQuery UI 1.8 and later
 
 ## Licensing
 All code is open source and dual licensed under GPL and MIT. Check the individual licenses for more information.
